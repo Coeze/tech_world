@@ -1,0 +1,28 @@
+div.series{
+    display:flex;
+    align-items: center;
+    padding:50px;
+}
+img.book_series{
+    display:block;
+    object-fit: cover;
+    max-width: 50%;
+    height: auto;
+}
+div.series_list{
+    margin-left: 50px;
+    align-self: flex-start;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+div.series_list ul{
+    height: 100%;
+    
+}
+
+div.series_list ul li{
+    list-style-type: georgian;
+  
+    
+}

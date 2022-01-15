@@ -1,0 +1,31 @@
+nav.main_nav{
+    width:100%;
+    height:auto;
+    position:sticky;
+    top:0;
+}
+nav.main_nav ul.main_nav_ul{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background:burlywood;
+}
+nav.main_nav ul.main_nav_ul li{
+    list-style-type: none;
+    padding:10px;
+}
+nav.main_nav ul.main_nav_ul li:hover{
+    color:brown;
+    cursor:pointer;
+}
+li#main_last{
+    display: flex;
+    align-items: center;
+}
+li#main_donate{
+    background:rgb(253, 44, 44);
+    /* border:none;
+    outline:none; */
+}
