@@ -1,11 +1,18 @@
 import React from 'react'
 import Nav from '../components/Nav'
+import ContactForm from '../components/contactForm'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function contact() {
     return (
-        <div>
+        <>
+            <Header >     
             <Nav />
-        </div>
+            </Header>  
+            <ContactForm />
+            <Footer />
+        </>
     )
 }
 

@@ -1,31 +1,24 @@
-nav.main_nav{
+nav.main_navs{
     width:100%;
     height:auto;
-    position:fixed;
-    top:0;
+    background:transparent
 }
-nav.main_nav ul.main_nav_ul{
+nav.main_navs ul.main_nav_uls{
     width:100%;
     height:auto;
     display:flex;
     justify-content: space-around;
     text-align: center;
-    background:burlywood;
 }
-nav.main_nav ul.main_nav_ul li{
+nav.main_navs ul.main_nav_uls li{
     list-style-type: none;
     padding:10px;
 }
-nav.main_nav ul.main_nav_ul li:hover{
+nav.main_navs ul.main_nav_uls li:hover{
     color:brown;
     cursor:pointer;
 }
-li#main_last{
+li#main_lasts{
     display: flex;
     align-items: center;
-}
-li#main_donate{
-    background:rgb(253, 44, 44);
-    /* border:none;
-    outline:none; */
 }

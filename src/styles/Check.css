@@ -1,0 +1,30 @@
+div.check{
+    /* margin:auto; */
+    /* margin:20px; */
+    /* padding:40px; */
+    width: 30%;
+    height:auto;
+    border-radius: 2rem;
+    text-align: center;
+    background:white;
+    margin:auto;
+
+
+}
+div.outer_check{
+    display: flex;
+}
+
+
+div.check img{
+    object-fit: cover;
+    max-width: 50%;
+    height:auto;
+    display: block;
+    margin:auto;
+}
+input.check_prods{
+    max-width:2rem;
+    -moz-appearance: textfield;
+    text-align: center;
+}

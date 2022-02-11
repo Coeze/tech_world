@@ -1,0 +1,12 @@
+div.generalHeader{
+    background-image: url('../../images/young-people-3575167_1920.jpg');
+    background-size: cover;
+    background-origin: center;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 70vh;
+    background-color:#fff;
+    background-blend-mode: luminosity;
+}
+

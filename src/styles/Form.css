@@ -5,7 +5,9 @@ div.form{
     width: 100%;
     /* background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(29, 84, 166) 100%); */
     /* background:grey; */
-    background-image: radial-gradient(ellipse at 75% -25%, rgb(14, 102, 150) 0%, transparent 100%);
+    /* for blue form background */
+    /* background-image: radial-gradient(ellipse at 75% -25%, rgb(14, 102, 150) 0%, transparent 100%); */
+    background-image: radial-gradient(ellipse at 75% -25%, rgb(150, 14, 109) 0%, transparent 100%);
 }
 form.actual{
     display: flex;

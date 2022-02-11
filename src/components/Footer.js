@@ -42,7 +42,7 @@ function Footer() {
 <button type='submit'>Send</button>
 </div>
             </div>
-            <div className='five'><p id='copyright'>Copyright &copy; 2021 RCN Glasgow. All rights reserved</p></div>
+            <div className='five'><p id='copyright'>Copyright &copy; {new Date().getFullYear()} RCN Glasgow. All rights reserved</p></div>
             <div className='six'><a href='#'>Privacy Policy</a></div>
         </div>
     )

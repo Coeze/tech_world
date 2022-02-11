@@ -6,7 +6,7 @@ import QuickInfo from '../components/QuickInfo'
 import Banner from '../components/Banner'
 import Series from '../components/series'
 import Scripture from '../components/Scripture'
-import Form from '../components/Form'
+// import Form from '../components/Form'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
         <QuickInfo />
         <Banner />
         <Series />
-        <Form />
+        {/* <Form /> */}
         <Scripture />
        
         <Footer />

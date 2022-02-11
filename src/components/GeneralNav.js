@@ -1,17 +1,14 @@
 import React, {useContext} from 'react'
-import '../styles/nav.css'
-import {basketContext} from './Basket'
 import {Link} from 'react-router-dom'
+import { basketContext } from './Basket'
+import '../styles/GeneralNav.css'
 
-
-function Nav() {
-    const styles = {'text-decoration': 'none', 'color':'black'}
+function GeneralNav() {
+    const styles = {'text-decoration': 'none', 'color':'white', 'font-weight':'650'}
     const [noOfBasketItems, setNumber] = useContext(basketContext)
-    
-    
     return (
-        <nav className='main_nav'>
-            <ul className='main_nav_ul'>
+        <nav className='main_navs'>
+            <ul className='main_nav_uls'>
             <Link to ='/' style={styles}>
                 <li>Home</li>
             </Link>
@@ -25,14 +22,12 @@ function Nav() {
                 <li>Products</li>
                 </Link>
                 <Link to ='/donate' style={styles}>
-                <li id='main_donate' style={styles}>Donate</li>
+                <li style={styles}>Donate</li>
                 </Link>
-                <Link to='/checkout' style={styles}>
                 <li id='main_last'><span class="material-icons">shopping_basket</span>{noOfBasketItems}</li>
-                </Link>
                 </ul>
         </nav>
     )
 }
 
-export default Nav
+export default GeneralNav

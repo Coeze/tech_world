@@ -1,0 +1,46 @@
+span#check_head{
+    text-align: center;
+    font-size:2rem;
+}
+div.main_check{
+    margin:150px auto;
+}
+#spanner{
+    font-size:3rem;
+    margin-left:40px;
+}
+div.conditional{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.p_chec1{
+    background:white;
+    height:min-content;
+    padding:50px 100px;
+    margin:auto;
+    display:block;
+    width:80vw;
+
+}
+div.but_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:100px;
+}
+div.outer_check{
+    display: flex;
+}
+button.buy{
+    background:brown;
+    color:white;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+}
+button.buy:hover{
+    background: burlywood;
+    cursor: pointer;
+}

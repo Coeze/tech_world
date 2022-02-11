@@ -4,7 +4,7 @@ div.main_banner{
     background-size: cover;
     background-origin: center;
     width:100%;
-    height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-rows: 1fr 2fr;
     place-items: center;

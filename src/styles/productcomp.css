@@ -1,0 +1,47 @@
+div.productcomp{
+    /* margin:auto; */
+    margin:20px;
+    padding:40px;
+    max-width: 100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    text-align: center;
+    background:chocolate;
+
+}
+div.productcomp img{
+    object-fit: cover;
+    max-width: 90%;
+    height:auto;
+    display: block;
+    margin:auto;
+}
+button.add_button{
+    background:brown;
+    padding:5px;
+    color:white;
+    outline:none;
+    border:none;
+    display:inline-block;
+    width: max-content;
+    margin:auto;
+}
+button.add_button:hover{
+    cursor:pointer;
+    background:burlywood;
+}
+form.but_num{
+    display: flex;
+    position:relative;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+input.number_prods{
+    max-width:2rem;
+    -moz-appearance: textfield;
+    text-align: center;
+    padding:3px 0;
+    
+}

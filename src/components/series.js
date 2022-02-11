@@ -8,12 +8,12 @@ function Series() {
             <img src='https://cdn.pixabay.com/photo/2021/01/21/15/54/books-5937716_1280.jpg' className='book_series' alt='book'/>
            
             <div className='series_list'>
-            <p d='seriesp'>Four Power Packed Series to assist you in your pursuit of Christ.</p>
+            <p id='seriesp'>Four Power Packed Series to assist you in your pursuit of Christ.</p>
             <ul>
-                <li>Series 1</li>
-                <li>Series 2</li>
-                <li>Series 3</li>
-                <li>Series 4</li>
+                <li>Series 1: The Unbelievers Series</li>
+                <li>Series 2: Living the Life of God</li>
+                <li>Series 3: Discipleship</li>
+                <li>Series 4: Glorification</li>
             </ul>
             </div>
         </div>
