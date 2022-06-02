@@ -30,8 +30,12 @@ div.but_box{
     align-items: center;
     margin-top:100px;
 }
+div.but_box > *{
+    margin-right: 10px;
+}
 div.outer_check{
     display: flex;
+    
 }
 button.buy{
     background:brown;

@@ -4,6 +4,7 @@ import Productcomp from '../components/Productcomp'
 import {items} from '../components/items'
 import {basketContext, basketItems} from './Basket'
 import { itemContext } from './basket_item'
+import { PriceContext } from './PriceContext'
 
 
 export let name = 0;
@@ -13,15 +14,14 @@ function MainProducts() {
     
     const [numberBasket, setNumbers] = useContext(basketContext)
     const [itemNumber, setNumber] = useContext(itemContext)
+    const [price, setPrice] = useContext(PriceContext)
 
    const basketHandler = (event) => {
        event.preventDefault()
        const bo = event.target.className;
-    //    if (!ides.includes(bo)) {
-    //        ides.push(bo)
-    //     }else{
-    //         ides.shift()
-    //     }
+    setPrice((prev) => {
+        return prev+100
+    })
     setNumbers((prev) => {
         return prev+1;
     })

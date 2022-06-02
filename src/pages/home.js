@@ -14,7 +14,7 @@ function Home() {
 
     return (
         <>
-        <Header >
+        <Header text="TECH WORLD">
         <Nav />
         </Header>
         <QuickInfo />

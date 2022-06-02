@@ -1,6 +1,6 @@
 div.productcomp{
     /* margin:auto; */
-    margin:20px;
+    margin-top:20px;
     padding:40px;
     max-width: 100%;
     height:auto;
@@ -8,7 +8,8 @@ div.productcomp{
     flex-direction: column;
     border-radius: 2rem;
     text-align: center;
-    background:chocolate;
+    background:white;
+    border-radius: 5px;
 
 }
 div.productcomp img{

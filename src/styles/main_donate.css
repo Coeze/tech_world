@@ -1,0 +1,66 @@
+div.prices_div{
+    max-width:80%;
+    display: flex;
+}
+div.main_donate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 179, 0);
+    margin-top: 50px;
+    padding:50px;
+}
+div.main_donate div:nth-child(2) > *{
+    margin-bottom: 30px;
+}
+#amount_in{
+    outline: 0;
+    margin-left: 10px;
+  border-width: 0 0 2px;
+    padding: 0 10px; 
+    background: transparent; 
+    outline: none; 
+    width: 80px
+}
+#amount_in:focus{
+    border-color: rgb(255, 0, 166);
+    transition-duration: 1s;
+    transform-origin: left;
+}
+div.fh{
+    width:80%;
+    margin: auto;
+}
+div.sh{
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px){
+    div.main_donate{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(255, 179, 0);
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    div.main_donate{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(255, 179, 0);
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    div.main_donate{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(255, 179, 0);
+        margin-top: 50px;
+    }
+}

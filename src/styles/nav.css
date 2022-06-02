@@ -10,7 +10,7 @@ nav.main_nav ul.main_nav_ul{
     display:flex;
     justify-content: space-around;
     text-align: center;
-    background:burlywood;
+    background:black;
 }
 nav.main_nav ul.main_nav_ul li{
     list-style-type: none;
@@ -28,4 +28,9 @@ li#main_donate{
     background:rgb(253, 44, 44);
     /* border:none;
     outline:none; */
+}
+@media only screen and (max-width: 480px){
+    nav.main_nav ul.main_nav_ul{
+        display: none;
+    }
 }

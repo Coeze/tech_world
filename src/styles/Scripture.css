@@ -2,7 +2,7 @@ body{
     background:beige;
 }
 div.img_scripture{
-    background-image:url('../../images/sunset-570881_1920.jpg');
+    background-image:url('../assets/images/abstract.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: center;
@@ -10,7 +10,8 @@ div.img_scripture{
     height:100vh;
     display: grid;
     place-items: center;
-    mask-image: linear-gradient(to left, transparent 1%, rgb(131, 20, 20) 25%);
+    padding: 0 20px;
+    /* mask-image: linear-gradient(to left, transparent 1%, rgb(131, 20, 20) 25%); */
 }
 p.scripture{
     font-size: 3rem;

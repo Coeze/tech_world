@@ -4,8 +4,7 @@ import '../styles/Scripture.css'
 function Scripture() {
     return (
         <div className='img_scripture'>
-            <p className='scripture'>Lo, children are an heritage of the LORD: and the fruit of the womb is his reward.
-</p>
+            <p className='scripture'>Numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium.</p>
         </div>
     )
 }

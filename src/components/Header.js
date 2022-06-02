@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/header.css'
 
-function Header({children}) {
+function Header({children, text}) {
     return (
         <div className='main_header_div'>
         {children}
         <div className='main_header_texts'>
-            <p className='main_header_top'>WELCOME TO</p>
-            <p className='main_header_bottom'>CHRIST FOR ALL YOUTH</p>
+        
+            <p className='main_header'>{text}</p>
          </div>
         
         </div>

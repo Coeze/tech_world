@@ -1,0 +1,36 @@
+div.hamburger{
+    width: 50px;
+    cursor: pointer;
+    display: none;
+    /* display: none; */
+}
+div.lines{
+    border: 5px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+}
+div.rotat div:nth-child(1){
+    transform: rotate(45deg) translate(10px, 10px);
+    transition-duration: 0.5s;
+}
+div.rotat div:nth-child(3){
+    transform: rotate(-45deg) ;
+    transition-duration: 0.5s;
+    
+}
+div.rotat div:nth-child(2){
+    display: none;
+}
+ul.notshown{
+    display: none;
+}
+ul.shown{
+    /* width:100%; */
+    display: block;
+    transition:0.3s;
+}
+@media only screen and (max-width: 480px){
+    div.hamburger{
+        display: block;
+    }
+}

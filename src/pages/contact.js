@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 function contact() {
     return (
         <>
-            <Header >     
+            <Header text="CONTACT">     
             <Nav />
             </Header>  
             <ContactForm />

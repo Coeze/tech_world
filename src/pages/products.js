@@ -4,14 +4,16 @@ import Header from '../components/Header'
 import MainProducts from '../components/MainProducts'
 import Footer from '../components/Footer'
 import Scripture from '../components/Scripture'
+import MainCheckOut from '../components/MainCheckOut'
 
 function Products() {
     return (
         <div>
             <Nav />
-            <Header />
+            <Header text="PURCHASE"/>
             <MainProducts/>
-            <Scripture />
+            <MainCheckOut/>
+            {/* <Scripture /> */}
             <Footer />
         </div>
     )

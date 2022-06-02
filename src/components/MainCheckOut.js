@@ -1,18 +1,18 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import {items} from './items'
 import {basketItems} from './Basket'
 import Check from './Check'
 import '../styles/MainCheckout.css'
+import { PriceContext } from './PriceContext'
+
 
 export let productItems = []
-let start = 0;
-productItems.forEach((item) => {
-    start+=item.price;
-})
 
 function MainCheckOut() {
 
-productItems = items.filter((item) => {
+    const [price, setPrice] = useContext(PriceContext)
+
+    productItems = items.filter((item) => {
    return basketItems.includes(item.title)
 })
 
@@ -32,7 +32,7 @@ productItems = items.filter((item) => {
             </div>
             <div className='but_box'>
             {productItems.length?<button className='buy'>Checkout</button>:''}
-            {productItems.length?<p className='total_price'><strong>Total: </strong>{`£${start}`}</p>:''}
+            {productItems.length?<p className='total_price'><strong>Total: </strong>{`£${price}`}</p>:''}
             </div>
             </div>
         

@@ -8,11 +8,13 @@ import Contact from './pages/contact'
 import Donate from './pages/donate'
 import Products from './pages/products'
 import Checkout from './pages/Checkout';
+import Price from './components/PriceContext';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     
+    <Price>
     <Basket>
     <BasketItem>
     <React.Fragment>
@@ -21,7 +23,7 @@ function App() {
     <Route exact path='/contact' element={<Contact />}/>
     <Route exact path='/donate' element={<Donate />}/>
     <Route exact path='/products' element={<Products/>}/>
-    <Route exact path='/about' element={<About/>}/>
+    {/* <Route exact path='/about' element={<About/>}/> */}
     <Route exact path='/checkout' element={<Checkout/>}/>
     <Route exact path='/' element={<Home/>}/>
     </Routes>
@@ -29,7 +31,7 @@ function App() {
     </React.Fragment>
 </BasketItem>
     </Basket>
-  
+    </Price>
   
   );
 }

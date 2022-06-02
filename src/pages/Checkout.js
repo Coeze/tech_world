@@ -10,7 +10,7 @@ function Checkout() {
     
     return (
         <>
-        <Header>
+        <Header text="CHECKOUT">
         <Nav />
        </Header>
         <MainCheckOut />

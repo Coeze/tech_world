@@ -6,12 +6,15 @@ div.quickInfo{
     align-items: center;
     box-sizing: border-box;
     justify-content: space-around;
+    background-color: rgba(245, 245, 245, 0.824);
 }
 img.tree{
-    display:inline-block;
+    display:block;
     object-fit: cover;
-    max-width:60%;
+    max-width:40%;
     height:auto;
+    box-shadow: 0 0 5px 5px; 
+    border-radius: 20px;
 }
 div.quickInfo div{
     margin-left: 50px;
@@ -43,3 +46,21 @@ p.info_main_head{
     font-size: 2.3rem;
     font-weight: 800;
 }
+
+/* @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+/* } /* */
+
+@media screen and (max-width: 480px) {
+    div.quickInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    p.quickInfoP{
+        font-size: 1rem;
+    }
+    img.tree{
+        display:none;
+    }
+
+ }
